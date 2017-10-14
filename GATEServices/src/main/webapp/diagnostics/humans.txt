@@ -1,0 +1,5 @@
+{
+									"buildNumber":"${BUILD_NUMBER}",
+									"gitCommitId":"9185f077a3c803b37f3e332547ec55a9e49f5632",
+									"builtOn":"09-May-2017 20:30:448 +0000"
+									}

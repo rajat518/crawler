@@ -1,0 +1,36 @@
+# Gazetteer_LKB dictionary configuration file.
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rep: <http://www.openrdf.org/config/repository#> .
+@prefix hr: <http://www.openrdf.org/config/repository/http#> .
+@prefix lkbg: <http://www.ontotext.com/lkb_gazetteer#> .
+
+# http://www.openrdf.org/doc/sesame2/users/ch07.html#section-repository-config
+[] a rep:Repository ;
+   rep:repositoryImpl [ rep:repositoryType "openrdf:HTTPRepository" ;
+                        hr:repositoryURL <http://10.126.100.138:5820/showcase1/query> ];
+   
+   rep:repositoryID "showcase1" ;
+   rdfs:label "showcase1" .
+   
+# The gazetteer-specific options follow.
+lkbg:DictionaryConfiguration 
+   # Possible values: caseinsensitive, casesensitive
+   lkbg:caseSensitivity "caseinsensitive" ;
+   
+   #(optional) Authentication
+   lkbg:username "admin" ;
+   lkbg:password "admin" ;
+      
+   # Whether the gazetteer will cache the dictionary after loading it from the data source.   
+   # Put "enabled" to enable the cache, any other values will disable it.
+   lkbg:caching "enabled" ;
+   
+   # The cache will be automatically reloaded on initialization if the configuration have been    
+   # modified since the last initialization. However, changes in the underlying datastore 
+   # can't be detected and the cache will not be automatically reloaded in that case. 
+   # Thus, if you expect changes in your datastore, disable the cache, or make use
+   # of the modifications API.
+   
+   #A list of labels to be ignored, one per line.
+   lkbg:ignoreList "ignoreList.txt" .   

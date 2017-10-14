@@ -1,0 +1,129 @@
+<gate.util.persistence.GateApplication>
+  <urlList class="gate.util.persistence.CollectionPersistence">
+    <localList>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$../classes/ANNIE/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$../classes/Web_Crawler_Websphinx/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$../classes/Ontology/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$../classes/TermRaider/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$../classes/Tools/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$../classes/Groovy/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$../classes/Tagger_NP_Chunking/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+    </localList>
+    <collectionType>java.util.ArrayList</collectionType>
+  </urlList>
+  <application class="gate.util.persistence.ControllerPersistence">
+    <prList class="gate.util.persistence.CollectionPersistence">
+      <localList>
+        <gate.util.persistence.PRPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>convertXmlTypes</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>keywords</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>max</string>
+                <int>10</int>
+              </entry>
+              <entry>
+                <string>stopAfter</string>
+                <int>-1</int>
+              </entry>
+              <entry>
+                <string>maxPageSize</string>
+                <int>100</int>
+              </entry>
+              <entry>
+                <string>userAgent</string>
+                <string></string>
+              </entry>
+              <entry>
+                <string>source</string>
+                <null/>
+              </entry>            
+             
+             <entry>
+                <string>outputCorpus</string>
+                <gate.util.persistence.CorpusPersistence>
+                  <docList/>
+                  <resourceType>gate.corpora.CorpusImpl</resourceType>
+                  <resourceName>public</resourceName>
+                  <initParams class="gate.util.persistence.MapPersistence">
+                    <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                    <localMap>
+                      <entry>
+                        <string>documentsList</string>
+                        <null/>
+                      </entry>
+                    </localMap>
+                  </initParams>
+                </gate.util.persistence.CorpusPersistence>
+              </entry>                                     
+             
+              <entry>
+                <string>keywordsCaseSensitive</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>dfs</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>depth</string>
+                <int>3</int>
+              </entry>
+              <entry>
+                <string>domain</string>
+                <crawl.DomainMode>SUBTREE</crawl.DomainMode>
+              </entry>
+              <entry>
+                <string>root</string>
+                <string>http://www.google.com</string>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>crawl.CrawlPR</resourceType>
+          <resourceName>CrawlerPR_00025</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.PRPersistence>
+      </localList>
+      <collectionType>java.util.ArrayList</collectionType>
+    </prList>
+    <resourceType>gate.creole.SerialController</resourceType>
+    <resourceName>google+crawl</resourceName>
+    <initParams class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </initParams>
+    <features class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </features>
+  </application>
+</gate.util.persistence.GateApplication>

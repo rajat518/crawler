@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.1" icons="true" automaticImage="JPEG" generate-combined-fragments="true">  
+  <object id="1" language="java" name="com.cisco.ccl.kvm.GATE.services.web.AnnotationService" project="Crawler" 
+    file="/Crawler/src/main/java/com/cisco/ccl/kvm/GATE/services/web/AnnotationService.java" binary="false" 
+    label="annotationService" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="518" y="0"/>    
+    <execution id="2">      
+      <position height="177" width="201" x="5" y="116"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="24" width="201" x="5" y="195"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="24" width="7" x="102" y="245"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="72" width="201" x="5" y="325"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="24" width="201" x="5" y="382"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="72" width="201" x="5" y="424"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="72" width="201" x="5" y="501"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="96" width="201" x="5" y="575"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="72" width="201" x="5" y="651"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="24" width="201" x="5" y="740"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="72" width="201" x="5" y="773"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="96" width="201" x="5" y="850"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="24" width="7" x="102" y="898"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="24" width="201" x="5" y="623"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="144" width="201" x="5" y="453"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="72" width="201" x="5" y="247"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="24" width="201" x="5" y="322"/>    
+    </execution>  
+  </object>  
+  <object id="37" language="java" name="websphinx.Crawler" project="Crawler" 
+    file="C:/dev/tools/gate-8.4-build5748-ALL/plugins/Web_Crawler_Websphinx/lib/websphinx.jar" binary="true" 
+    label="crawler" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="259" y="0"/>    
+    <execution id="4">      
+      <position height="103" width="80" x="210" y="140"/>    
+    </execution>  
+  </object>  
+  <object id="39" language="java" name="gate.termraider.modes.TfCalculation" project="Crawler" 
+    file="C:/dev/tools/gate-8.4-build5748-ALL/plugins/TermRaider/gate-termraider.jar" binary="true" 
+    label="tfCalculation" type="enumeration" autoSize="true">    
+    <position height="-1" width="-1" x="289" y="0"/>    
+    <execution id="35">      
+      <position height="24" width="121" x="294" y="271"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="72" width="121" x="294" y="298"/>    
+    </execution>  
+  </object>  
+  <object id="42" language="java" name="com.cisco.ccl.kvm.GATE.services.web.MultipartFileUploader" project="Crawler" 
+    file="/Crawler/src/main/java/com/cisco/ccl/kvm/GATE/services/web/MultipartFileUploader.java" binary="false" 
+    label="multipartFileUploader" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="430" y="0"/>    
+    <execution id="10">      
+      <position height="24" width="201" x="294" y="349"/>    
+    </execution>    
+    <execution id="43">      
+      <position height="72" width="201" x="294" y="358"/>    
+    </execution>  
+  </object>  
+  <object id="45" language="java" name="com.cisco.ccl.kvm.GATE.services.web.Writter" project="Crawler" 
+    file="/Crawler/src/main/java/com/cisco/ccl/kvm/GATE/services/web/Writter.java" binary="false" label="writter" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="641" y="0"/>    
+    <execution id="14">      
+      <position height="24" width="201" x="499" y="448"/>    
+    </execution>  
+  </object>  
+  <object id="46" language="java" name="com.cisco.ccl.kvm.GATE.services.web.CSVReader" project="Crawler" 
+    file="/Crawler/src/main/java/com/cisco/ccl/kvm/GATE/services/web/CSVReader.java" binary="false" label="csvReader" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="805" y="0"/>    
+    <execution id="17">      
+      <position height="24" width="201" x="704" y="525"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="144" width="201" x="704" y="551"/>    
+    </execution>  
+  </object>  
+  <object id="49" language="java" name="com.cisco.ccl.kvm.GATE.services.web.QueryGenerator" project="Crawler" 
+    file="/Crawler/src/main/java/com/cisco/ccl/kvm/GATE/services/web/QueryGenerator.java" binary="false" 
+    label="queryGenerator" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="1055" y="0"/>    
+    <execution id="23">      
+      <position height="24" width="201" x="909" y="675"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="72" width="201" x="909" y="716"/>    
+    </execution>  
+  </object>  
+  <object id="52" language="java" name="com.cisco.ccl.kvm.GATE.services.web.RdfConnection" project="Crawler" 
+    file="/Crawler/src/main/java/com/cisco/ccl/kvm/GATE/services/web/RdfConnection.java" binary="false" 
+    label="rdfConnection" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="1259" y="0"/>    
+    <execution id="27">      
+      <position height="24" width="201" x="1114" y="797"/>    
+    </execution>    
+    <execution id="53">      
+      <position height="144" width="201" x="1114" y="826"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="Crawler()" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" 
+    operation="commanFunction(gate.Corpus,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):void" 
+    asynchronous="false" x="110" y="202">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="9" operation="MultipartFileUploader()" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="13" operation="write(java.util.Map,java.lang.String,java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="16" operation="converCSVToXLSX(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="19" operation="createAndSaveFiles(gate.Corpus,java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="22" operation="generateQueryAndSave(java.lang.String,java.lang.String):java.lang.String" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="26" operation="runQuery(java.lang.String,java.lang.String,java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="29" operation="AnnotationService()" asynchronous="false">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="32" operation="AnnotationService()" asynchronous="false">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="34" operation="calculate(gate.termraider.modes.TfCalculation,int):double" asynchronous="false" x="121" 
+    y="248">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="38" 
+    operation="webCrawler(java.util.Map&lt;java.lang.String,java.lang.Object&gt;,java.lang.String,java.lang.String):org.springframework.web.context.request.async.WebAsyncTask&lt;ResponseEntity&lt;Topics&gt;&gt;" 
+    asynchronous="false" x="15" y="168">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="41" operation="AnnotationService()" asynchronous="false">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="44" 
+    operation="commanFunction(gate.Corpus,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="48" operation="AnnotationService()" asynchronous="false">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="51" operation="AnnotationService()" asynchronous="false">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="54" operation="AnnotationService()" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>
+</sequence-diagram>
